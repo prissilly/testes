@@ -1,0 +1,31 @@
+using System;
+
+namespace Tentativa1
+{
+    class Programa
+    {
+        // Método principal que é chamado quando o programa é executado
+        static void Main()
+        {
+            // Código principal do programa
+
+            Console.WriteLine("Olá Priscila!");
+
+            var sentence = "you are awesome";
+
+            string firstName = "Priscila";
+            string message = "Hello " + firstName;
+            Console.WriteLine(message);
+
+            // Misturando tipos de dados e observando o que acontece
+
+            int widgetSold = 19;
+            Console.WriteLine(firstName + " sold " + widgetSold + " widgets");
+
+            // Esclarecimento e adição de uma quantidade no meio
+
+            Console.WriteLine(firstName + " sold " + (widgetSold + 7) + " widgets");
+            Console.Write("Priscila " + sentence);
+        }
+    }
+}
